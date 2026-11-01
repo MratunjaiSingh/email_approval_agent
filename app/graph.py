@@ -22,6 +22,8 @@ Rules:
 - First line must be exactly: Subject: <subject>
 - Then a blank line, then the email body.
 - Use ONLY the facts given below. Never use placeholders like [Name].
+- Do not add promises, reasons or details that were not given
+  (for example, do not promise to be reachable or to hand over tasks).
 - If dates are provided, copy them exactly as given (weekday included).
 - Sign off with the sender name."""
 
