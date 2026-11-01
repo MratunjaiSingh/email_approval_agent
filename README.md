@@ -27,16 +27,15 @@ flowchart TD
 
 ## Quick start
 ```bash
-python -m venv .venv && .venv\Scripts\activate      # Windows
+git clone https://github.com/MratunjaiSingh/email_approval_agent.git
+cd email_approval_agent
+python -m venv .venv
+.venv\Scripts\activate                              # Windows
 pip install -r requirements.txt
 pip install langchain-groq                          # or your provider's package
 copy .env.example .env                              # then fill in your keys
 python run.py                                       # starts API + UI, opens the browser
 ```
-- UI: http://localhost:8501
-- API docs: http://127.0.0.1:8000/docs
-- Tests: `python -m pytest -q`
-
 ## Sending real emails
 1. Turn on 2-Step Verification for your Gmail account and create an App Password.
 2. In `.env` set `DRY_RUN=false`, `SMTP_USER=<your gmail>` and `SMTP_PASSWORD=<app password>`.
