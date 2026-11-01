@@ -1,4 +1,5 @@
 # Email Approval Agent (LangGraph + FastAPI + Streamlit)
+![Demo](docs/demo.gif)
 
 A human-in-the-loop email agent. An LLM drafts the email, code validates it, **a human approves it**, and only then is it sent over SMTP.
 
